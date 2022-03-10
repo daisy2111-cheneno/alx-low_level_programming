@@ -1,7 +1,4 @@
-/*
- *  * File: 4-puts.c
- *   * use betty coding style
- *    */
+/* betty coding style*/
 
 #include <stdio.h>
 
