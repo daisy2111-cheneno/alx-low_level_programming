@@ -1,8 +1,14 @@
+/**
+ *ALX introduction to C
+ *
+ *Basics
+ */
+
 #include <stdio.h>
 /**
- *print using puts
+ *main -print using puts not printf
  *
- *do not use printf
+ *Return: ALways 0 (Success)
  */
 
 int main(void)
