@@ -1,13 +1,7 @@
-/**
- *  * File-4-puts.c
- *   * Date:10th March 2022
- *    */
-
 #include <stdio.h>
-
 /**
- *  * main - prints the phrase "Programming is like building a multilingual puzzle
- *   * Return: 0 if exited properly, non-zero otherwise
+ *  * main - main block
+ *   * Return: 0
  *    */
 int main(void)
 {
