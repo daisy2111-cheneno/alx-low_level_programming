@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ *print using puts
+ *
+ *do not use printf
+ */
 
 int main(void)
 {
