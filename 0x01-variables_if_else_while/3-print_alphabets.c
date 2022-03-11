@@ -1,8 +1,4 @@
-/*
- *  * File: 3-print_alphabets.c
- *   * 
- *    * Block comment in C
- */
+/*betty*/
 
 #include <stdio.h>
 
@@ -10,21 +6,18 @@
  *  * main - Prints the alphabet in lowercase, and then in uppercase.
  *   *
  *    * Return: Always 0.
- */
+*/
 int main(void)
 {
-	char letter;
+	int ch;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
 
 	putchar('\n');
 
 	return (0);
 }
-
-
-
