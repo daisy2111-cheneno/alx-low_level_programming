@@ -4,7 +4,7 @@
 
 /**
  *  * void print_times_table- prints the n times table, starting with 0.
- *   * @n : int is between 0 and 15
+ *   * @n : int n is the number of times table
  *    * Return: Always 0.
 */
 void print_times_table(int n)
