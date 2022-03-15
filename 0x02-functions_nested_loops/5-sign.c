@@ -4,7 +4,7 @@
 
 /**
  *  * print_sign-prints the sign of a number
- *   * @- or + signs to be checked
+ *   * @n input
  *    * Return: 1 and prints + if n>0
  *      * returns 0 and prints zero if n=0
  *        *returns -1 and prints - if n<0.
@@ -15,12 +15,13 @@ int print_sign(int n)
 	{
 		_putchar('+');
 		return (1);
-	} else if (n == 0)
+	}else if (n == 0)
 	{
 		_putchar(48);
 		return (0);
-																} else if (n < 0)
-																{																_putchar('-');
-																}
+	}else
+	{
+		_putchar('-');
+	}														
 																return (-1);
 }
