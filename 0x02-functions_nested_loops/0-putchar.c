@@ -1,6 +1,6 @@
 /*Betty coding style*/
 
-#include "putchar.h"
+#include "main.h"
 
 /**
  *  * main -print _putchar
