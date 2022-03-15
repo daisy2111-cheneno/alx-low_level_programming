@@ -8,3 +8,4 @@
 7. There are only 3 colors, 10 digits, and 7 notes; its what we do with them thats important-Write a function that prints the last digit of a number.Prototype: int print_last_digit(int);Returns the value of the last digit
 8. Im federal agent Jack Bauer, and today is the longest day of my life Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.Prototype: void jack_bauer(void);
 9. Learn your times table-Write a function that prints the 9 times table, starting with 0.Prototype: void times_table(void);
+12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself-Write a function that prints the n times table, starting with 0.Prototype: void print_times_table(int n);If n is greater than 15 or less than 0 the function should not print anything
