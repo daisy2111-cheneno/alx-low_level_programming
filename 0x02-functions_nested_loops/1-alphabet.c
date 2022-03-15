@@ -1,5 +1,3 @@
-/*Betty coding style*/
-
 #include "main.h"
 
 /**
