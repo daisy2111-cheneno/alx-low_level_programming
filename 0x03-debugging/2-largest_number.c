@@ -11,23 +11,25 @@
 int largest_number(int a, int b, int c)
 {
 	int largest;
+	int control;
 
-	if (a > b && b > c)
+	if (a > b)
 	{
-		largest = a;
+		control = a;
 	}
-	else if (b > a && a < c)
+	else
 	{
-		largest = c;
+		control = b;
 	}
-	else if (b > c)
+	if(control > c)
 	{
-		largest = b;
+		largest = control;
 	}
 	else
 	{
 		largest = c;
 	}
-	
-	return (largest);
+
+	return (largest)
 }
+
