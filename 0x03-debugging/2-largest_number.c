@@ -10,22 +10,21 @@
 
 int largest_number(int a, int b, int c)
 {
-	int control;
 	int largest;
 
 	if (a > b)
 	{
-		control = a;
+		largest = a;
 	}
 	else
 	{
-		control = b;
+		largest = b;
 	}
-	if (control > c)
+	if ( largest > c)
 	{
-		largest = control;
+		largest = largest;
 	}
-	else 
+	else
 	{
 		largest = c;
 	}
