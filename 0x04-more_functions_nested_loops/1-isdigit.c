@@ -1,9 +1,9 @@
 #include "main.h"
 
-/**
- *  * isdigit- checks for digits 0-9
- *   * @c: the character to check
- *    * Return: 1 if c is a digit 0 otherwise
+/*
+ * isdigit- checks for integers 0 to 9
+ * @c : inpjut checks for integers
+ * Return: 1 if c is a digit 0 otherwise
 */
 int _isdigit(int c)
 {
