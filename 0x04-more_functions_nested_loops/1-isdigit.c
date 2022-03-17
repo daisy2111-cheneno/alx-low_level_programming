@@ -1,9 +1,10 @@
 #include "main.h"
 
 /*
- * isdigit- checks for integers 0 to 9
- * @c : inpjut checks for integers
- * Return: 1 if c is a digit 0 otherwise
+ *  * isdigit - checks for a digit (0 through 9).
+ *   *  @c- input checks for integers
+ *    * Description: checks for integers
+ *     * Return: 1 if c is a digit 0 otherwise
 */
 int _isdigit(int c)
 {
@@ -16,3 +17,4 @@ int _isdigit(int c)
 		return (0);
 	}
 }
+
