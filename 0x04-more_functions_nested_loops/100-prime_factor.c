@@ -17,7 +17,7 @@ int main(void)
 	while (n % 2 == 0)
 	{
 		max = 2;
-		n = n /2;
+		n = n / 2;
 	}
 
 	for (i = 3; i <= n / 2; i = i + 2)
@@ -25,7 +25,7 @@ int main(void)
 		while (n % i == 0)
 		{
 			max = i;
-			n = n/ i;
+			n = n / i;
 		}
 	}
 
