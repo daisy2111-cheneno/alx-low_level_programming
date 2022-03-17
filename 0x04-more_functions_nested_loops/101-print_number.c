@@ -2,7 +2,8 @@
 
 /*
  * print_number - prints an integer.
- * followed by a new line;
+ * followed by a new line
+ * Description : print integer
  * @n : integer to be printed
  * Return : 0 Always (Sucess)
 */
