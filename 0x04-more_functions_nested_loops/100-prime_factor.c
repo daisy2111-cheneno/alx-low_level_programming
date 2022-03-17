@@ -9,12 +9,14 @@
 
 int main(void)
 {
-	long int n, i;
+	long int n, i, max;
 
 	n = 612852475143;
+	max = -1;
 
 	while (n % 2 == 0)
 	{
+		max = 2;
 		n = n / 2;
 	}
 
@@ -22,15 +24,16 @@ int main(void)
 	{
 		while (n % i == 0)
 		{
+			max = i;
 			n = n / i;
 		}
 	}
 
 	if (n > 2)
 	{
-		n = n;
+		max = n;
 	}
-	printf("%ld\n", n);
+	printf("%ld\n", max);
 
 	return (0);
 }
