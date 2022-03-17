@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * mul - check the multiple of two integers
- * @a and @b are the inputs
- * Description: a * b
- * Return: 0 Always
+ *  * mul - multiplies two integers
+ *   * @a: int to be multiplied to b
+ *    * @b: int to be multiplied to a
+ *     * Return: the result of the operation
 */
 int mul(int a, int b)
 {
 	int multiple;
 
 	multiple = a * b;
+
 	return (multiple);
 }
