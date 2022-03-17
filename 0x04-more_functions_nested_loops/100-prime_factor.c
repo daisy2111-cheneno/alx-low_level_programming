@@ -3,7 +3,7 @@
 
 /*
  * main - check code
- *
+ * program - prints the largest prime factor of the number
  * Return 0: Always (Success)
 */
 
