@@ -1,11 +1,12 @@
 #include "main.h"
-#include <string.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
- *  * puts2 - prints one char out of 2
- *   * @str: input
- *    *
+ *  * puts2 - prints every other character of a string
+ *   * followed by a new line
+ *    *@str:input
+ *     * Return: Always 0.
 */
 void puts2(char *str)
 {
