@@ -2,8 +2,9 @@
 
 /**
  *  * swap_int - swaps the values of two integers
- *   * @a and @b: inputs
- *    * Return: Always 0.
+ *   * @a: input
+ *    * @b:input
+ *     * Return: Always 0.
 */
 void swap_int(int *a, int *b)
 {
