@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- *  * _puts - prints the string
+ *  * print_rev - prints the string in reverse
  *   * folowed by a new line
- *    *@str:input
+ *    *@s:input
  *     * Return: Always 0.
 */
 void print_rev(char *s)
