@@ -3,9 +3,10 @@
 #include <string.h>
 
 /**
- *  * main - check the code
- *   *
- *    * Return: Always 0.
+ *  * puts_half -prints the second half
+ *   * followed by a line
+ *    * @str:input
+ *     * Return: Always 0.
 */
 void puts_half(char *str)
 {
@@ -13,11 +14,24 @@ void puts_half(char *str)
 
 	len = strlen(str);
 
-	for (i = len / 2; str[i] != '\0'; i++)
+	if (len % 2 == 0)
 	{
-		if (i >= len /2)
+		for (i = 0; str[i] != '\0'; i++)
 		{
-			putchar(str[i]);
+			if (i >= len /2)
+			{
+				putchar(str[i]);
+			}
+		}
+	}
+	else
+	{
+		for (i = 0; str[i] != '\0'; i++)
+		{
+			if (i >= (len-1) / 2)
+			{
+				putchar(str[i]);
+			}
 		}
 	}
 	putchar('\n');
